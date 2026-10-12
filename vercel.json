@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/:u((?!index|app|config|favicon)[a-zA-Z0-9_.-]+)", "destination": "/index.html" }
+  ]
+}
